@@ -13,7 +13,7 @@ public class Setup {
     public WebDriver driver;
 
     @BeforeTest
-    public void setup(){
+    public void setup() {
         ChromeOptions ops = new ChromeOptions();
         WebDriverManager.chromedriver().setup();
         ops.addArguments("--headed");

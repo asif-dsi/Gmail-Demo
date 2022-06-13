@@ -10,9 +10,9 @@ public class SignUpRunner extends Setup {
     public void runSignUp() throws InterruptedException {
         driver.get("https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp");
         SignUp signUp = new SignUp(driver);
-        signUp.doSignUp1("abc");
-        signUp.doSignUp1("123");
-        signUp.doSignUp2("abcdefgh");
-        signUp.doSignUp2("password");
+        signUp.doSignUp("abc");
+        signUp.doSignUp("123");
+        signUp.doSignUp("abcdefgh");
+        signUp.doSignUp("password");
     }
 }
