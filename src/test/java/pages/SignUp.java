@@ -69,22 +69,4 @@ public class SignUp {
             Assert.assertTrue(s.contains("Please choose a stronger password. Try a mix of letters, numbers, and symbols"));
         }
     }
-
-//    public void doSignUp2(String pass2) throws InterruptedException {
-//        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-//        firstName.clear();
-//        firstName.sendKeys("Jon");
-//        lastName.clear();
-//        lastName.sendKeys("Doe");
-//        userName.clear();
-//        userName.sendKeys("djon84729");
-//        pass.clear();
-//        pass.sendKeys(pass2);
-//        confirmPass.clear();
-//        confirmPass.sendKeys(pass2);
-//        wait.until(ExpectedConditions.elementToBeClickable(btnNext)).click();
-//        String s = secondError.getText();
-//        Assert.assertTrue(s.contains("Please choose a stronger password. Try a mix of letters, numbers, and symbols"));
-//    }
-
 }
